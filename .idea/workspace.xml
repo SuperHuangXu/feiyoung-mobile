@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="161d2c80-c36f-47e5-bb38-2513b3f8459c" name="Default Changelist" comment="" />
+    <list default="true" id="161d2c80-c36f-47e5-bb38-2513b3f8459c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,6 +31,7 @@
           <entry key="ico" value="3" />
           <entry key="js" value="10" />
           <entry key="json" value="1" />
+          <entry key="md" value="1" />
           <entry key="png" value="3" />
           <entry key="ts" value="4" />
           <entry key="vue" value="6" />
@@ -41,7 +44,7 @@
           <entry key="Image" value="9" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="10" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="TypeScript" value="4" />
           <entry key="Vue.js" value="6" />
         </counts>
@@ -102,8 +105,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="61" />
+            <state relative-caret-position="24">
+              <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -288,12 +291,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543465138471</updated>
-      <workItem from="1543465139629" duration="13610000" />
+      <workItem from="1543465139629" duration="14579000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13610000" />
+    <option name="totallyTimeSpent" value="14579000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="23" width="1550" height="848" extended-state="6" />
@@ -444,10 +447,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="61" />
+        <state relative-caret-position="24">
+          <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
         </state>
       </provider>
     </entry>

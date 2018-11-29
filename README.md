@@ -1,22 +1,12 @@
 # feiyoung-mobile
 
-> An electron-vue project
+> 一个路由器只占用一台手机的登录名额。
 
-#### Build Setup
+## 使用方法
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:9080
-npm run dev
-
-# build electron application for production
-npm run build
-
-
-```
-
----
-
-This project was generated with [electron-vue](https://github.com/SimulatedGREG/electron-vue)@[8fae476](https://github.com/SimulatedGREG/electron-vue/tree/8fae4763e9d225d3691b627e83b9e09b56f6c935) using [vue-cli](https://github.com/vuejs/vue-cli). Documentation about the original structure can be found [here](https://simulatedgreg.gitbooks.io/electron-vue/content/index.html).
+0. 电脑下载安装“feiyoung-mobile”。
+1. 手机安装 “Packet Capture”。
+1. ![选择“飞 young 宽带”](http://github.com/SuperHuangXu/feiyoung-mobile/raw/master/images/1.jpg)
+1. 打开“飞 young 宽带”app，输入账号和密码登录。
+1. 登录成功后，打开“Packet Capture”，找到如下信息页。
+1. 复制框框里的东西
