@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="161d2c80-c36f-47e5-bb38-2513b3f8459c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/7.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
@@ -33,7 +33,7 @@
           <entry key="js" value="10" />
           <entry key="json" value="1" />
           <entry key="md" value="1" />
-          <entry key="png" value="5" />
+          <entry key="png" value="6" />
           <entry key="ts" value="4" />
           <entry key="vue" value="6" />
         </counts>
@@ -42,7 +42,7 @@
         <counts>
           <entry key="CSS" value="1" />
           <entry key="EJS" value="3" />
-          <entry key="Image" value="11" />
+          <entry key="Image" value="12" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="10" />
           <entry key="PLAIN_TEXT" value="2" />
@@ -112,12 +112,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/images/4.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/5.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/images/3.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
@@ -252,16 +257,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543465138471</updated>
-      <workItem from="1543465139629" duration="15324000" />
+      <workItem from="1543465139629" duration="16654000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15324000" />
+    <option name="totallyTimeSpent" value="16654000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="23" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
@@ -422,10 +426,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/4.png">
+    <entry file="file://$PROJECT_DIR$/images/3.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/3.png">
+    <entry file="file://$PROJECT_DIR$/images/5.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/4.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
   </component>

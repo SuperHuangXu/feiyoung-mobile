@@ -24,5 +24,6 @@
    并填入
    ![](https://raw.githubusercontent.com/SuperHuangXu/feiyoung-mobile/master/images/6.png)
 1. 登录。
+   ![](https://raw.githubusercontent.com/SuperHuangXu/feiyoung-mobile/master/images/7.png)
 
 > 欢迎交流 QQ 1292905798
