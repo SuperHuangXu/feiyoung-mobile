@@ -6,7 +6,7 @@
 
 ### 手机部分
 
-1. 手机安装 “Packet Capture”。
+1. 手机安装 “[Packet Capture](https://github.com/SuperHuangXu/feiyoung-mobile/releases/download/0.1/app.greyshirts.sslcapture.apk)”。
 1. 选择“飞 young 宽带”![](https://raw.githubusercontent.com/SuperHuangXu/feiyoung-mobile/master/images/1.jpg)
 1. 打开“飞 young 宽带”app，输入账号和密码登录。
 1. 登录成功后，打开“Packet Capture”，找到如下信息页。
@@ -16,6 +16,7 @@
 
 ### 电脑部分
 
+1. 安装[feiyoung-mobile](https://github.com/SuperHuangXu/feiyoung-mobile/releases/download/0.1/feiyoung-mobile.Setup.0.0.1.exe)
 1. 路由器 wan 口连接网线。
 1. 打开路由器管理界面，找到如下信息
    ![](https://raw.githubusercontent.com/SuperHuangXu/feiyoung-mobile/master/images/4.png)
