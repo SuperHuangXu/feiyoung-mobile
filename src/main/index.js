@@ -1,4 +1,4 @@
-import { app, BrowserWindow, ipcMain } from "electron";
+import {app, BrowserWindow, ipcMain, Menu} from "electron";
 import { login, logout } from "./utils/login";
 import db from "./utils/db";
 import * as request from "superagent";
@@ -18,6 +18,27 @@ const winURL =
     : `file://${__dirname}/index.html`;
 
 function createWindow() {
+  // 解决macOS下不能复制粘贴
+  if (process.platform === 'darwin') {
+    const template = [
+      {
+        label: "Application",
+        submenu: [
+          { label: "Quit", accelerator: "Command+Q", click: function() { app.quit(); }}
+        ]
+      },
+      {
+        label: "Edit",
+        submenu: [
+          { label: "Copy", accelerator: "CmdOrCtrl+C", selector: "copy:" },
+          { label: "Paste", accelerator: "CmdOrCtrl+V", selector: "paste:" },
+        ]
+      }
+    ];
+    Menu.setApplicationMenu(Menu.buildFromTemplate(template))
+  } else {
+    Menu.setApplicationMenu(null)
+  }
   mainWindow = new BrowserWindow({
     height: 563,
     useContentSize: true,
