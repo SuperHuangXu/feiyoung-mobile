@@ -4,7 +4,7 @@
       <div class="field">
         <div class="control">
           <input class="input" type="text" v-model.trim="mac"
-                 placeholder="路由器MAC：50-64-22....">
+                 placeholder="路由器MAC：**-**-**....">
         </div>
       </div>
       <div class="field">
@@ -32,76 +32,79 @@
 </template>
 
 <script>
-export default {
-  name: "index",
-  components: {},
-  data() {
-    return {
-      mac: "",
-      ip: "",
-      qs: "",
-      showText: "",
-      showClass: "" // is-success is-danger
-    };
-  },
-  created() {
-    this.$electron.ipcRenderer.on("configRes", (event, res) => {
-      const { userip, usermac } = res;
-      this.$db.defaults({ mac: usermac }).write();
-      this.$db.defaults({ ip: userip }).write();
-      this.$db.defaults({ logoutStr: "" }).write();
-
-      this.$db.set("mac", usermac).value();
-      this.$db.set("ip", userip).value();
-      this.mac = usermac;
-      this.ip = userip;
-      console.log(this.$db);
-    });
-
-    this.$electron.ipcRenderer.on("loginRes", (event, res) => {
-      if (res.responseCode === "50") {
-        this.$db.set("logoutStr", res.logoffURL).value();
-        this.showClass = "is-success";
-        this.showText = res.replyMessage;
-      } else {
-        this.showClass = "is-danger";
-        this.showText = res.replyMessage;
-      }
-    });
-
-    this.$electron.ipcRenderer.on("logoutRes", (event, res) => {
-      if (res.ResponseCode === "150") {
-        this.showClass = "is-success";
-        this.showText = "退出成功";
-      } else {
-        this.showClass = "is-danger";
-        this.showText = "退出失败";
-      }
-    });
-  },
-  methods: {
-    getConfig() {
-      this.$electron.ipcRenderer.send("getConfig");
+  export default {
+    name: "index",
+    components: {},
+    data() {
+      return {
+        mac: "",
+        ip: "",
+        qs: "",
+        showText: "",
+        showClass: "" // is-success is-danger
+      };
     },
-    login() {
-      this.showClass = "";
-      if (this.mac.length < 1 || this.ip.length < 1 || this.qs.length < 1) {
-        this.showClass = "is-danger";
-        this.showText = "请完成表单。";
-        return false;
-      }
-      this.$electron.ipcRenderer.send("login", this.mac, this.ip, this.qs);
+    created() {
+      this.$electron.ipcRenderer.on("configRes", (event, res) => {
+        const {userip, usermac} = res;
+        this.$db.defaults({mac: usermac}).write();
+        this.$db.defaults({ip: userip}).write();
+        this.$db.defaults({logoutStr: ""}).write();
+
+        this.$db.set("mac", usermac).value();
+        this.$db.set("ip", userip).value();
+        this.mac = usermac;
+        this.ip = userip;
+        console.log(this.$db.__wrapped__);
+      });
+
+      this.$electron.ipcRenderer.on("loginRes", (event, res) => {
+        if (res.responseCode === "50") {
+          this.$db.set("logoutStr", res.logoffURL).value();
+          this.showSuccess(res.replyMessage);
+        } else {
+          this.showDanger(res.replyMessage);
+        }
+      });
+
+      this.$electron.ipcRenderer.on("logoutRes", (event, res) => {
+        if (res.ResponseCode === "150") {
+          this.showSuccess("退出成功");
+        } else {
+          this.showDanger("退出失败");
+        }
+      });
     },
-    logout() {
-      this.$electron.ipcRenderer.send("logout");
+    methods: {
+      getConfig() {
+        this.$electron.ipcRenderer.send("getConfig");
+      },
+      login() {
+        this.showClass = "";
+        if (!this.mac || !this.ip || !this.qs) {
+          this.showDanger("请完成表单");
+          return false;
+        }
+        this.$electron.ipcRenderer.send("login", this.mac, this.ip, this.qs);
+      },
+      logout() {
+        this.$electron.ipcRenderer.send("logout");
+      },
+      showSuccess(msg){
+        this.showClass = "is-success";
+        this.showText = msg;
+      },
+      showDanger(msg){
+        this.showClass = "is-danger";
+        this.showText = msg;
+      }
     }
-  }
-};
+  };
 </script>
 
 <style lang="scss">
-.float-right {
-  text-align: right;
-  margin: 18px;
-}
+  .float-right {
+    text-align: right;
+    margin: 18px;
+  }
 </style>

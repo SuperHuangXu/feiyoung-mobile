@@ -2,6 +2,8 @@ import * as qs from "querystring";
 import * as superagent from "superagent";
 import { parseString } from "xml2js";
 
+const CONFIG_IP = "59.172.216.49";
+
 async function login(mac, ip, qstr) {
   let config;
   const {
@@ -25,7 +27,7 @@ async function login(mac, ip, qstr) {
     .query({
       userip: ip,
       wlanacname: "",
-      nasip: "59.175.245.222",
+      nasip: CONFIG_IP,
       usermac: mac,
       aidcauthtype: 0
     });
