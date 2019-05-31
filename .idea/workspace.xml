@@ -54,7 +54,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor>
-                <caret column="3" selection-start-column="3" selection-end-column="3" />
+                <caret column="78" selection-start-column="78" selection-end-column="78" />
               </first_editor>
               <second_editor />
             </state>
@@ -135,11 +135,6 @@
             <path>
               <item name="feiyoung-mobile" type="b2602c69:ProjectViewProjectNode" />
               <item name="feiyoung-mobile" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="feiyoung-mobile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="feiyoung-mobile" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -212,12 +207,12 @@
       <workItem from="1553831119509" duration="1823000" />
       <workItem from="1553861669866" duration="889000" />
       <workItem from="1555832862989" duration="1112000" />
-      <workItem from="1559283650875" duration="1668000" />
+      <workItem from="1559283650875" duration="1876000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29061000" />
+    <option name="totallyTimeSpent" value="29269000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="44" y="23" width="1396" height="787" extended-state="6" />
@@ -408,7 +403,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor>
-            <caret column="3" selection-start-column="3" selection-end-column="3" />
+            <caret column="78" selection-start-column="78" selection-end-column="78" />
           </first_editor>
           <second_editor />
         </state>
