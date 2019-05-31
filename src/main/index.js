@@ -71,8 +71,8 @@ ipcMain.on("getConfig", async (event) => {
   event.sender.send("configRes", res);
 });
 
-ipcMain.on("login", async (event, mac, ip, qstr) => {
-  const res = await login(mac, ip, qstr);
+ipcMain.on("login", async (event,serverIp, mac, ip, qstr) => {
+  const res = await login(serverIp, mac, ip, qstr);
   event.sender.send("loginRes", res);
 });
 
