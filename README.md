@@ -35,8 +35,6 @@ MacOS:[feiyoung-mobile-0.0.1-mac.zip](https://www.yuque.com/attachments/yuque/0/
 
 ![image.png](https://cdn.nlark.com/yuque/0/2019/png/99644/1559285126673-c5f86374-6304-4e6e-b24b-d7d45905ab57.png#crop=0&crop=0&crop=1&crop=1&height=170&id=tFUEq&name=image.png&originHeight=340&originWidth=1978&originalType=binary&ratio=1&rotation=0&showTitle=false&size=104409&status=done&style=none&title=&width=989)
 
-> 若觉得电脑端繁琐的，可试试只需要手机操作的方法 [https://www.yuque.com/huangxu/blog/ogao32](https://www.yuque.com/huangxu/blog/ogao32)
-
 | 请我喝杯茶🥤～ |  |
 | --- | --- |
 | ![image.png](https://cdn.nlark.com/yuque/0/2020/png/99644/1602727010107-077b3ebb-6838-427e-91d5-af3ce4f7a0e1.png#crop=0&crop=0&crop=1&crop=1&height=1037&id=gfmmM&margin=%5Bobject%20Object%5D&name=image.png&originHeight=1037&originWidth=1037&originalType=binary&ratio=1&rotation=0&showTitle=false&size=134238&status=done&style=none&title=&width=1037) | ![image.png](https://cdn.nlark.com/yuque/0/2020/png/99644/1602727025916-e2ab5be4-4d8a-487e-b791-16d8f01078be.png#crop=0&crop=0&crop=1&crop=1&height=1540&id=rTZ5a&margin=%5Bobject%20Object%5D&name=image.png&originHeight=1540&originWidth=990&originalType=binary&ratio=1&rotation=0&showTitle=false&size=263092&status=done&style=none&title=&width=990) |
